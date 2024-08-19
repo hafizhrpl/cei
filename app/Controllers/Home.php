@@ -6,12 +6,17 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('welcome_message');
+        return view('sidebar')
+            . view('navbar')
+            . view('dashboard')
+            . view('footer');
     }
 
-    public function tambah()
+    public function kandang()
     {
-        return view('tambah_data');
-
+        return view('sidebar')
+            . view('navbar')
+            . view('kandang')
+            . view('footer');
     }
 }
