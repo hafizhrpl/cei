@@ -1,21 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .border-custom {
-            border: 0;
-            height: 2px;
-            /* Ketebalan garis */
-            background-color: #000000;
-        }
-    </style>
-</head>
 
-<body>
 
     <div class="container-fluid">
         <!-- Form Example -->
@@ -51,7 +35,7 @@
 
 
                     </div>
-                    <hr class="border-custom mb-4">
+                    <hr class=" bg-dark">
                     <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
                 </form>
 
@@ -270,6 +254,3 @@
             </div>
         </div>
     </div>
-</body>
-
-</html>
