@@ -19,4 +19,29 @@ class Home extends BaseController
             . view('kandang')
             . view('footer');
     }
+   
+
+    public function detailkandang()
+    {
+        return view('sidebar')
+        . view('navbar')
+           . view('detail_kandang')
+           . view('footer');
+    }
+
+    public function detailminggu()
+    {
+        return view('sidebar')
+        . view('navbar')
+           . view('detail_kandang2')
+           . view('footer');
+    }
+    public function laporan()
+    {
+        return view('sidebar')
+        . view('navbar')
+           . view('laporan')
+           . view('footer');
+    }
+
 }

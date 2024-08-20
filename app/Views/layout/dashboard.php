@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link href="<?= base_url('vendor/fontawesome-free/css/all.min.css'); ?>" rel="stylesheet">
+    <link href="<?php echo base_url( 'vendor/fontawesome-free/css/all.min.css'); ?>" rel="stylesheet">
     <link href="<?= base_url('css/sb-admin-2.min.css'); ?>" rel="stylesheet">
 </head>
 <body id="page-top">
