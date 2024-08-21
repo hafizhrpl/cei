@@ -38,28 +38,28 @@
 
           
             <hr class="sidebar-divider my-0">
-            <li class="nav-item <?php echo base_url(['detailkandang']) ?>">
+            <li class="nav-item <?php echo base_url(['datatelur']) ?>">
                 <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsefour" aria-expanded="true"
                     aria-controls="collapseTwo">
                     <i class="fas fa-warehouse"></i>
                     <span>Data Telur</span>
                 </a>
-                <div id="collapsefour" class="collapse <?php echo base_url(['detailkandang', 'detailkandang']) ?>" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div id="collapsefour" class="collapse <?php echo base_url(['datatelur', 'datatelur']) ?>" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item <?php echo base_url('detailkandang') ?>" href="<?php echo site_url('detailkandang'); ?>">Tambah data</a>
+                        <a class="collapse-item <?php echo base_url('datatelur') ?>" href="<?php echo site_url('datatelur'); ?>">Tambah data</a>
                     </div>
                 </div>
             </li>
             <hr class="sidebar-divider my-0">
-            <li class="nav-item <?php echo base_url(['detailminggu']) ?>">
+            <li class="nav-item <?php echo base_url(['datavitamin']) ?>">
                 <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsefive" aria-expanded="true"
                     aria-controls="collapseTwo">
                     <i class="fas fa-warehouse"></i>
                     <span>Data Vitamin</span>
                 </a>
-                <div id="collapsefive" class="collapse <?php echo base_url(['detailminggu', 'detailminggu']) ?>" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div id="collapsefive" class="collapse <?php echo base_url(['datavitamin', 'datavitamin']) ?>" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item <?php echo base_url('detailminggu') ?>" href="<?php echo site_url('detailminggu'); ?>">Tambah data</a>
+                        <a class="collapse-item <?php echo base_url('datavitamin') ?>" href="<?php echo site_url('datavitamin'); ?>">Tambah data</a>
                     </div>
                 </div>
             </li>

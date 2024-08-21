@@ -21,19 +21,19 @@ class Home extends BaseController
     }
    
 
-    public function detailkandang()
+    public function datatelur()
     {
         return view('sidebar')
         . view('navbar')
-           . view('detail_kandang')
+           . view('data_vitamin')
            . view('footer');
     }
 
-    public function detailminggu()
+    public function datavitamin()
     {
         return view('sidebar')
         . view('navbar')
-           . view('detail_kandang2')
+           . view('data_vitamin')
            . view('footer');
     }
     public function laporan()

@@ -1,6 +1,4 @@
-
-
-    <div class="container-fluid">
+<div class="container-fluid">
         <!-- Form Example -->
         <div class="card shadow mb-4">
             <div class="card-header py-3">

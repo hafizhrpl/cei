@@ -140,7 +140,6 @@
                     <div class="form-row">
                         <!-- Checkbox di atas label Induk Jantan -->
                         <div class="form-group col-md-6">
-                            <input type="checkbox" id="disableIndukJantanUmurJantan" class="mb-2">
                             <label for="indukJantan">Induk Jantan</label>
                             <div class="d-flex align-items-center">
                                 <input type="text" class="form-control" id="indukJantan" placeholder="Masukkan Induk Jantan">
@@ -160,7 +159,6 @@
                     <div class="form-row">
                         <!-- Checkbox di atas label Induk Betina -->
                         <div class="form-group col-md-6">
-                            <input type="checkbox" id="disableIndukBetinaUmurBetina" class="mb-2">
                             <label for="indukBetina">Induk Betina</label>
                             <div class="d-flex align-items-center">
                                 <input type="text" class="form-control" id="indukBetina" placeholder="Masukkan Induk Betina">
