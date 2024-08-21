@@ -155,9 +155,7 @@
                         </div>
                     </div>
 
-                    <!-- Checkbox untuk Induk Betina dan Umur Betina -->
                     <div class="form-row">
-                        <!-- Checkbox di atas label Induk Betina -->
                         <div class="form-group col-md-6">
                             <label for="indukBetina">Induk Betina</label>
                             <div class="d-flex align-items-center">
@@ -165,7 +163,6 @@
                             </div>
                         </div>
 
-                        <!-- Checkbox di atas label Umur Betina -->
                         <div class="form-group col-md-6">
                             <label for="umurBetina">Umur Betina</label>
                             <div class="d-flex align-items-center">
@@ -182,6 +179,56 @@
         </div>
     </div>
 </div>
+
+<div class="modal fade" id="detailKandang" tabindex="-1" aria-labelledby="detailKandang" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form>
+                <div class="card">
+                    <div class="card-header bg-primary text-white text-center">
+                        Detail Kandang
+                    </div>
+                    <div class="card-body">
+                        <p class="font-weight-bold">Nama Kandang :</p>
+                        <div class="text-center">
+                            <!-- Baris pertama -->
+                            <div class="d-flex justify-content-center align-items-center mb-2">
+                                <!-- Persegi panjang dengan input teks -->
+                                <input type="text" class="form-control text-center border border-primary bg-primary text-white px-5 py-1 " value="J">
+
+                                <!-- Garis horizontal -->
+                                <div class="mx-3 border-top border-primary flex-grow-1" style="height: 2px;"></div>
+
+                                <!-- Persegi panjang dengan input teks -->
+                                <input type="text" class="form-control text-center border border-primary bg-primary text-white px-5 py-1 " value="B">
+                            </div>
+
+                            <!-- Garis vertikal penghubung baris pertama dan kedua -->
+
+                            <!-- Baris kedua -->
+                            <!-- <div class="d-flex justify-content-center align-items-center mb-2">
+                                <div class="d-flex flex-column align-items-center">
+                                    <div class="border border-primary bg-primary text-white p-2 mb-2">J</div>
+                                    <div class="border border-primary bg-primary text-white p-2">B</div>
+                                </div>
+                                <div class="mx-4"></div>
+                                <div class="d-flex flex-column align-items-center">
+                                    <div class="border border-primary bg-primary text-white p-2 mb-2">J</div>
+                                    <div class="border border-primary bg-primary text-white p-2">B</div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" onclick="saveData()">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         // Checkbox untuk Induk Jantan dan Umur Jantan

@@ -1,4 +1,4 @@
-<link href="<?php echo base_url('vendor/fontawesome-free/css/all.min.css') ?>" rel="stylesheet" type="text/css">
+<link href="<?php echo base_url('assets/fontawesome-free/css/all.min.css') ?>" rel="stylesheet" type="text/css">
 <link
     href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
     rel="stylesheet">
@@ -13,7 +13,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url('dashboard') ?>">
-             
+
                 <div class="sidebar-brand-text mx-3"> </div>
 
             </a>
@@ -35,8 +35,6 @@
                 </div>
             </li>
             <hr class="sidebar-divider my-0">
-
-          
             <hr class="sidebar-divider my-0">
             <li class="nav-item <?php echo base_url(['datatelur']) ?>">
                 <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsefour" aria-expanded="true"
@@ -63,7 +61,6 @@
                     </div>
                 </div>
             </li>
-            
             <hr class="sidebar-divider my-0">
             <li class="nav-item <?php echo base_url(['laporan']) ?>">
                 <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsesix" aria-expanded="true"
@@ -77,12 +74,7 @@
                     </div>
                 </div>
             </li>
-
-                  
-
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
-
-
         </ul>
