@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <!-- Form Example -->
     <div class="card shadow ">
-        <div class="card-header py-3">
+        <div class="card-header ">
             <h6 class="m-0 font-weight-bold text-primary ">Detail data kandang</h6>
         </div>
         <div class="card-body">
@@ -33,9 +33,11 @@
 
                 </div>
                 <hr class=" bg-dark">
-            </form>
+                <button type="button" class="btn btn-success " data-toggle="modal" data-target="#">Data Telur</button>
+                <button type="button" class="btn  btn-primary " data-toggle="modal" data-target="#">Data Vitamin</button>
+            </form><br>
 
-            <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#datavitamin">Tambah Data</button>
+            <button type="button" class="btn  btn-primary " data-toggle="modal" data-target="#datavitamin">Tambah Data</button>
             <div class="card-body">
                 <div class="table-responsive">
                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">

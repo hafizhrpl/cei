@@ -4,7 +4,6 @@
         <div class="card-header py-3">
             <div class="d-flex justify-content-between align-items-center">
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Tambah Data</button>
-                <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
             </div>
         </div>
         <div class="card-body">
@@ -109,10 +108,6 @@
         </div>
     </div>
 </div>
-
-
-
-
 <!-- Modal for Adding New Kandang Data -->
 <div class="modal fade" id="EditKandang" tabindex="-1" aria-labelledby="EditKandang" aria-hidden="true">
     <div class="modal-dialog">
@@ -188,38 +183,7 @@
                     <div class="card-header bg-primary text-white text-center">
                         Detail Kandang
                     </div>
-                    <div class="card-body">
-                        <p class="font-weight-bold">Nama Kandang :</p>
-                        <div class="text-center">
-                            <!-- Baris pertama -->
-                            <div class="d-flex justify-content-center align-items-center mb-2">
-                                <!-- Persegi panjang dengan input teks -->
-                                <input type="text" class="form-control text-center border border-primary bg-primary text-white px-5 py-1 " value="J">
 
-                                <!-- Garis horizontal -->
-                                <div class="mx-3 border-top border-primary flex-grow-1" style="height: 2px;"></div>
-
-                                <!-- Persegi panjang dengan input teks -->
-                                <input type="text" class="form-control text-center border border-primary bg-primary text-white px-5 py-1 " value="B">
-                            </div>
-
-                            <!-- Garis vertikal penghubung baris pertama dan kedua -->
-
-                            <!-- Baris kedua -->
-                            <!-- <div class="d-flex justify-content-center align-items-center mb-2">
-                                <div class="d-flex flex-column align-items-center">
-                                    <div class="border border-primary bg-primary text-white p-2 mb-2">J</div>
-                                    <div class="border border-primary bg-primary text-white p-2">B</div>
-                                </div>
-                                <div class="mx-4"></div>
-                                <div class="d-flex flex-column align-items-center">
-                                    <div class="border border-primary bg-primary text-white p-2 mb-2">J</div>
-                                    <div class="border border-primary bg-primary text-white p-2">B</div>
-                                </div>
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
             </form>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -229,12 +193,18 @@
     </div>
 </div>
 
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         // Checkbox untuk Induk Jantan dan Umur Jantan
         const disableIndukJantanUmurJantan = document.getElementById('disableIndukJantanUmurJantan');
         const indukJantan = document.getElementById('indukJantan');
         const umurJantan = document.getElementById('umurJantan');
+
+        // Set initial state to checked and inputs disabled
+        disableIndukJantanUmurJantan.checked = true;
+        indukJantan.disabled = true;
+        umurJantan.disabled = true;
 
         disableIndukJantanUmurJantan.addEventListener('change', function() {
             const isDisabled = disableIndukJantanUmurJantan.checked;
@@ -246,6 +216,11 @@
         const disableIndukBetinaUmurBetina = document.getElementById('disableIndukBetinaUmurBetina');
         const indukBetina = document.getElementById('indukBetina');
         const umurBetina = document.getElementById('umurBetina');
+
+        // Set initial state to checked and inputs disabled
+        disableIndukBetinaUmurBetina.checked = true;
+        indukBetina.disabled = true;
+        umurBetina.disabled = true;
 
         disableIndukBetinaUmurBetina.addEventListener('change', function() {
             const isDisabled = disableIndukBetinaUmurBetina.checked;

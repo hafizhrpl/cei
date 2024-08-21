@@ -17,7 +17,6 @@
                 <div class="sidebar-brand-text mx-3"> </div>
 
             </a>
-
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
 
@@ -35,29 +34,16 @@
                 </div>
             </li>
             <hr class="sidebar-divider my-0">
-            <hr class="sidebar-divider my-0">
             <li class="nav-item <?php echo base_url(['datatelur']) ?>">
                 <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsefour" aria-expanded="true"
                     aria-controls="collapseTwo">
-                    <i class="fas fa-warehouse"></i>
-                    <span>Data Telur</span>
+                    <i class="fas fa-database"></i>
+                    <span>Data Telur dan Vitamin</span>
                 </a>
-                <div id="collapsefour" class="collapse <?php echo base_url(['datatelur', 'datatelur']) ?>" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div id="collapsefour" class="collapse  aria-labelledby=" headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item <?php echo base_url('datatelur') ?>" href="<?php echo site_url('datatelur'); ?>">Tambah data</a>
-                    </div>
-                </div>
-            </li>
-            <hr class="sidebar-divider my-0">
-            <li class="nav-item <?php echo base_url(['datavitamin']) ?>">
-                <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsefive" aria-expanded="true"
-                    aria-controls="collapseTwo">
-                    <i class="fas fa-warehouse"></i>
-                    <span>Data Vitamin</span>
-                </a>
-                <div id="collapsefive" class="collapse <?php echo base_url(['datavitamin', 'datavitamin']) ?>" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item <?php echo base_url('datavitamin') ?>" href="<?php echo site_url('datavitamin'); ?>">Tambah data</a>
+                        <a class="collapse-item <?php echo base_url('datatelur') ?>" href="<?php echo site_url('datatelur'); ?>">Tambah data telur</a>
+                        <a class="collapse-item <?php echo base_url('datavitamin') ?>" href="<?php echo site_url('datavitamin'); ?>">Tambah data vitamin</a>
                     </div>
                 </div>
             </li>
@@ -65,7 +51,7 @@
             <li class="nav-item <?php echo base_url(['laporan']) ?>">
                 <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsesix" aria-expanded="true"
                     aria-controls="collapseTwo">
-                    <i class="fas fa-warehouse"></i>
+                    <i class="fas fa-file-alt"></i>
                     <span>Laporan</span>
                 </a>
                 <div id="collapsesix" class="collapse <?php echo base_url(['laporan', 'laporan']) ?>" aria-labelledby="headingTwo" data-parent="#accordionSidebar">

@@ -29,15 +29,14 @@
                             <label for="indukBetina">Induk Betina</label>
                             <input type="text" class="form-control" id="indukBetina" placeholder="Masukkan Induk Betina">
                         </div>
-
-
                     </div>
                     <hr class=" bg-dark">
-                    <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
-                </form>
-
-                <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#exampleModal">Tambah Data</button>
+                    <button type="button" class="btn btn-success " data-toggle="modal" data-target="#">Data Telur</button>
+                    <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#">Data Vitamin</button>
+                </form><br>
+                <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#exampleModal"> Tambah Data</button>
                 <div class="card-body">
+                    
                     <div class="table-responsive">
                         <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                             <thead>
@@ -101,8 +100,6 @@
                                 <input type="number" class="form-control" id="umurJantan" placeholder="Masukkan Umur Jantan">
                             </div>
                         </div>
-
-
                     </form>
                 </div>
                 <div class="modal-footer">
@@ -157,17 +154,17 @@
     </div>
 
     <div class="modal fade" id="EditKandang" tabindex="-1" aria-labelledby="EditKandang" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="EditKandang">Edit Data </h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="card-body">
-            <form>
-            <div class="form-row">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="EditKandang">Edit Data </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="namaKandang">Kode Ring</label>
                                 <input type="text" class="form-control" id="namaKandang" placeholder="Masukkan Nama Kandang">
@@ -187,15 +184,15 @@
                                 <input type="date" class="form-control" id="umurJantan" placeholder="Masukkan Umur Jantan">
                             </div>
                         </div>
-            </form>
-        </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="saveData()">Save changes</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="saveData()">Save changes</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
     <div class="modal fade" id="datavitamin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
