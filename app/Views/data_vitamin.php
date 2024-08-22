@@ -33,11 +33,20 @@
 
                 </div>
                 <hr class=" bg-dark">
-                <button type="button" class="btn btn-success " data-toggle="modal" data-target="#">Data Telur</button>
+                <button type="button" class="btn btn-success ml-4" data-toggle="modal" data-target="#">Data Telur</button>
                 <button type="button" class="btn  btn-primary " data-toggle="modal" data-target="#">Data Vitamin</button>
             </form><br>
 
-            <button type="button" class="btn  btn-primary " data-toggle="modal" data-target="#datavitamin">Tambah Data</button>
+            <div class="form-row">
+                <div class="col-md-6">
+                    <button type="button" class="btn btn-primary ml-4" data-toggle="modal" data-target="#exampleModal">Tambah Data</button>
+                </div>
+
+                <div class="col-md-2 md-10 text-right">
+                    <input type="text" class="form-control" placeholder="Cari data">
+                </div>
+
+            </div>
             <div class="card-body">
                 <div class="table-responsive">
                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">

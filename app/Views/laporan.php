@@ -1,21 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+<div class="container-fluid">
+    <div class="card shadow mb-4">
+        <div class="card-header bg-primary text-white text-center">
+            <h4>Laporan</h4>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
-</head>
-
-<body>
-
-    <div class="container mt-4">
-        <div class="card border-primary">
-            <div class="card-header bg-primary text-white text-center">
-                <h4>Laporan</h4>
-            </div>
-            <div class="card-body">
                 <div class="d-flex justify-content-between mb-3">
                     <div class="btn-group">
                         <button type="button" class="btn btn-primary mr-2 rounded" data-toggle="modal" data-target="#exampleModal">Filter Kandang</button>
@@ -56,6 +47,4 @@
             </div>
         </div>
     </div>
-</body>
-
-</html>
+</div>
